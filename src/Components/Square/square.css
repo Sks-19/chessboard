@@ -1,0 +1,22 @@
+.square {
+  flex: 10.25%;
+  border: 1.5px solid gray;
+  display: grid;
+  cursor: pointer;
+  place-items: center;
+  height: 100%;
+}
+
+.square:active {
+  background-color: rgb(22, 196, 226);
+}
+
+.blackBox {
+  background-color: rgb(245, 229, 7);
+  color: black;
+}
+
+.whiteBox {
+  background-color: rgb(123, 179, 19);
+  color: black;
+}
